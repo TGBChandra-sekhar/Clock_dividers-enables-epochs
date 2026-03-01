@@ -10,10 +10,10 @@ module epoch_gen (
     
     input clk;        // 40.92 MHz
     input rst;
-    output reg epoch_1ms;
-    output reg epoch_20ms;
-    output reg epoch_1s;
-    output reg epoch_1p5s;
+    output reg epoch_1ms;  // 1 KHz
+    output reg epoch_20ms; // 50 Hz
+    output reg epoch_1s;   // 1 Hz
+    output reg epoch_1p5s; // 666.66 KHz
 
     reg [31:0] count;
     
