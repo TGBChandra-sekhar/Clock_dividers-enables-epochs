@@ -1,8 +1,8 @@
 //CLock divider by 2 with 50% duty cycle
 module clk_div_2 (
-    clk,
-    rst,
-    clk_out
+        clk,
+        rst,
+        clk_out
     );
     
     input clk;
