@@ -1,4 +1,3 @@
-
 // DDS Method
 module fractional_divider (
         clk,
