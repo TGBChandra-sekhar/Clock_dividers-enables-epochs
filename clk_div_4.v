@@ -13,11 +13,11 @@ module clk_div_4 (
     always@(posedge clk or posedge rst) begin
         if(rst) begin
             clk_out <= 1'b0;
-            count <= 2'd0;
+            count   <= 2'd0;
         end
         else begin
             if(count == 2'b1) begin
-                count <= 2'd0;
+                count   <= 2'd0;
                 clk_out <= ~clk_out;
             end
             else 
