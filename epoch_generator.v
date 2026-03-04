@@ -8,7 +8,7 @@ module epoch_gen (
     );  
 
     
-    input clk;        // 40.92 MHz
+    input clk;             // 40.92 MHz
     input rst;
     output reg epoch_1ms;  // 1 KHz
     output reg epoch_20ms; // 50 Hz
